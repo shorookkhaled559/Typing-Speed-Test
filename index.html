@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Speed Test</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-gray-900 text-white flex flex-col items-center p-5 sm:p-10 min-h-screen"
+  >
+    <h1 class="text-3xl sm:text-4xl mb-6 font-bold text-center">
+      Typing Speed Test
+    </h1>
+
+    <div
+      id="quote"
+      class="text-base sm:text-xl mb-6 text-yellow-300 bg-gray-800 p-4 rounded w-full max-w-2xl text-center"
+    >
+      Press Start to begin!
+    </div>
+
+    <div class="mb-4 text-base sm:text-lg text-center">
+      <span class="font-bold">Time Left: </span>
+      <span id="timer" class="text-green-400">10</span> sec
+    </div>
+
+    <textarea
+      id="input"
+      class="bg-white w-full max-w-2xl h-32 sm:h-40 p-3 sm:p-4 text-black rounded-lg outline-none text-base sm:text-lg"
+      placeholder="Start typing here..."
+      disabled
+    ></textarea>
+
+    <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-5">
+      <button
+        id="startBtn"
+        class="bg-green-500 px-5 py-2 sm:px-6 sm:py-3 rounded-lg text-base sm:text-lg hover:bg-green-600 transition"
+      >
+        Start
+      </button>
+      <button
+        id="finishBtn"
+        class="bg-blue-500 px-5 py-2 sm:px-6 sm:py-3 rounded-lg text-base sm:text-lg hover:bg-blue-600 transition"
+      >
+        Finish
+      </button>
+    </div>
+
+    <div
+      id="result"
+      class="mt-6 sm:mt-8 text-base sm:text-xl text-green-300 bg-gray-800 p-4 sm:p-5 rounded-lg w-full max-w-2xl text-center hidden"
+    ></div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
