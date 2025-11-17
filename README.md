@@ -7,7 +7,7 @@ It's built with **HTML, Tailwind CSS, and JavaScript**, and provides a **clean, 
 
 ## Live Demo
 
-[Live Demo](#)
+[Live Demo]([#](https://shorookkhaled559.github.io/Typing-Speed-Test/))
 
 ---
 
